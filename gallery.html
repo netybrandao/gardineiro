@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Gallery | Gardineiro</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="icon" href="/Images/Icon Gardineiro.png" type="image/png">
+  <style>
+    .gallery-img {
+      width: 100%;
+      height: 220px;
+      object-fit: cover;
+      border-radius: 5px;
+      transition: transform 0.3s ease;
+    }
+    .gallery-img:hover {
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center" href="index.html">
+        <img src="/Images/logo gardineiro.jpeg" alt="Gardineiro Logo" class="logo-icon me-2">
+        <span>Gardineiro</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+          <li class="nav-item"><a class="nav-link active" href="gallery.html">Gallery</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <section class="py-5 bg-light text-center">
+    <div class="container">
+      <h1 class="mb-3" style="color: #7BA866; font-family: 'Playfair Display', serif;">Gallery</h1>
+      <p class="lead mx-auto" style="max-width: 800px;">
+        Explore a selection of our gardening projects and discover how we bring charm, care, and life to every space we touch. 
+        Each photo tells a story of dedication and love for nature.
+      </p>
+    </div>
+  </section>
+
+  <!-- Image Grid -->
+  <section class="py-5">
+    <div class="container">
+      <div class="row g-4">
+
+        <div class="col-md-4">
+          <img src="/Images/gallery 1.jpg" alt="Gallery Image 1" class="gallery-img">
+        </div>
+        <div class="col-md-4">
+          <img src="/Images/gallery 2.jpeg" alt="Gallery Image 2" class="gallery-img">
+        </div>
+        <div class="col-md-4">
+          <img src="/Images/gallery 3.jpeg" alt="Gallery Image 3" class="gallery-img">
+        </div>
+        <div class="col-md-4">
+          <img src="/Images/gallery 4.jpeg" alt="Gallery Image 4" class="gallery-img">
+        </div>
+        <div class="col-md-4">
+          <img src="/Images/gallery 5.jpg" alt="Gallery Image 5" class="gallery-img">
+        </div>
+        <div class="col-md-4">
+          <img src="/Images/gallery 6.jpg" alt="Gallery Image 6" class="gallery-img">
+        </div>
+
+      </div>
+
+      <div class="text-center mt-5">
+        <p class="mb-3">Liked what you saw? We’d love to work with you!</p>
+        <a href="contact.html" class="btn btn-success">Request a Free Quote</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white-50 py-4 mt-5">
+    <div class="container text-center">
+      <p class="mb-1">Email: gardineiro1@gmail.com</p>
+      <p class="mb-0">&copy; 2025 Gardineiro. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
